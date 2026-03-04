@@ -1,0 +1,53 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+.title {
+    color: fuchsia;
+    text-align: center;
+    font-weight: bold;
+}
+
+.paragraph {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: rgb(33, 178, 236);
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    flex-basis: calc((100%/3-((20px*2)/3)));
+    row-gap: 20px;
+}
+.team-card {
+    background-color: black;
+    color: white;
+    font-size: smaller;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 500px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .team-container {
+        flex-basis: calc((100%/2-((10px*1)/2)));
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .team-container {
+        margin: 10% auto;
+    }
+}
+
+

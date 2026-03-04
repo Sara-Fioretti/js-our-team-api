@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js">
+</head>
+
+<body>
+    <h1 class="title">Meet our Team</h1>
+    <p class="paragraph">
+        Lorem ipsum dolor, sit amet consectetur adipiscing elit.
+        Ut aut odit, voluptates minima eius, perspiciatis a nobis porro fuga libero
+        accusamus facilis vitae voluptatem tempora sunt! Consequuntur nesciunt beatae provident.
+    </p>
+    <div class="team-container"></div>
+    <section class="form-container">
+        <h3>Aggiungi un nuovo membro</h3>
+        <form id="new-member-form">
+            <div>
+                <label for="newMemberName">Nome e Cognome</label>
+                <input type="text" id="newMemberName" required>
+            </div>
+            <div>
+                <label for="newMemberRole">Ruolo</label>
+                <input type="text" id="newMemberRole" required>
+            </div>
+            <div>
+                <label for="newMemberEmail">Email</label>
+                <input type="text" id="newMemberEmail" required>
+            </div>
+            <div>
+                <label for="newMemberImage">Foto</label>
+                <input type="text" id="newMemberImage" required>
+            </div>
+            <button type="submit">Aggiungi membro</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
